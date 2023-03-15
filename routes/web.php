@@ -23,5 +23,6 @@ Route::prefix('admin')->middleware('auth')->group(function () {
         return view('home');
     });
     Route::resource('salle','SallesController');
+    Route::resource('user','UserController');
 });
 

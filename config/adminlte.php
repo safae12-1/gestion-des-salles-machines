@@ -305,7 +305,7 @@ return [
             'can'  => 'manage-blog',
         ],
         
-        
+
         [
             'text'    => 'salle',
             'icon'    => 'fas fa-fw fa-arrow-alt-circle-right',
@@ -318,6 +318,25 @@ return [
                 [
                     'text' => 'ajouter des salles',
                     'url'  => 'admin/salle/create',
+                    'icon' => 'fas fa-door-open fa-fw'
+                ],
+                
+            ],
+        ],
+       
+     
+        [
+            'text'    => 'utilisateurs',
+            'icon'    => 'fas fa-fw fa-arrow-alt-circle-right',
+            'submenu' => [
+                [
+                    'text' => 'liste des utilisateurs',
+                    'url'  => 'admin/user',
+                    'icon' => 'fas fa-fw fa-list'
+                ],
+                [
+                    'text' => 'ajouter des utilisateurs',
+                    'url'  => 'admin/user/create',
                     'icon' => 'fas fa-door-open fa-fw'
                 ],
                 
