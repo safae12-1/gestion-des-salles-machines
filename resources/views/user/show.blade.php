@@ -5,7 +5,7 @@ show users
 
 @endsection
 @section('content_header')
-    <h1>show users</h1>
+    <h1>afficher utilisateur</h1>
 
 @endsection
 @section('content')

@@ -22,7 +22,8 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::get('/home', function () {
         return view('home');
     });
-    Route::resource('salle','SallesController');
+    Route::resource('salle','sallesController');
     Route::resource('user','UserController');
+    Route::resource('machine','machineController');
 });
 

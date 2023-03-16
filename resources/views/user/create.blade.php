@@ -5,7 +5,7 @@ Add new user
 
 @endsection
 @section('content_header')
-    <h1>Add new user</h1>
+    <h1>ajouter un utilisateur</h1>
 
 @endsection
 @section('content')
@@ -17,13 +17,13 @@ Add new user
            <div class="card my-5">
             <div class="card-header">
                 <div class="text-center font-weight-bold text-uppercase">
-                    <h4>Add new users</h4>
+                    <h4>ajouter un utilisateur</h4>
                 </div>
             </div>
             <div class="card-body">
                 <form action="{{route('user.store')}}" class="mt-3" method ="post">
                  @csrf 
-                    /
+                    
                     <div class="form-group mb-3">
                         <label for= "name" >name</label>
                         <input type="text" class="form-control" name="name" placeholder="name"
@@ -45,7 +45,7 @@ Add new user
 
                     </div>
                     <div class="form-group">
-                        <button type="submit" class="btn btn-primary">submit</button>
+                        <button type="submit" class="btn btn-primary">soumettre</button>
                     </div>
                 </form>
             </div>

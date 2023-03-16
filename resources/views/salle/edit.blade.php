@@ -5,7 +5,7 @@ update rooms
 
 @endsection
 @section('content_header')
-    <h1>update rooms</h1>
+    <h1>modifier salle</h1>
 
 @endsection
 @section('content')
@@ -17,7 +17,7 @@ update rooms
            <div class="card my-5">
             <div class="card-header">
                 <div class="text-center font-weight-bold text-uppercase">
-                    <h4>update rooms</h4>
+                    <h4>modifier salle</h4>
                 </div>
             </div>
             <div class="card-body">

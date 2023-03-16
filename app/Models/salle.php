@@ -9,4 +9,8 @@ class salle extends Model
 {
     use HasFactory;
     protected $fillable=['id','code','libelle'];
+    public function machine()
+    {
+        return $this->hasMany('App\Models\machine');
+    }
 }

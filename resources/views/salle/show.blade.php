@@ -5,7 +5,7 @@ show rooms
 
 @endsection
 @section('content_header')
-    <h1>show rooms</h1>
+    <h1>afficher salle</h1>
 
 @endsection
 @section('content')

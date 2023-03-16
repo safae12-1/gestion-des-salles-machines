@@ -5,7 +5,7 @@ Add new rooms
 
 @endsection
 @section('content_header')
-    <h1>Add new rooms</h1>
+    <h1>ajouter salle</h1>
 
 @endsection
 @section('content')
@@ -17,7 +17,7 @@ Add new rooms
            <div class="card my-5">
             <div class="card-header">
                 <div class="text-center font-weight-bold text-uppercase">
-                    <h4>Add new rooms</h4>
+                    <h4>ajouter salle</h4>
                 </div>
             </div>
             <div class="card-body">

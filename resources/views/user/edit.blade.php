@@ -5,7 +5,7 @@ update rooms
 
 @endsection
 @section('content_header')
-    <h1>update rooms</h1>
+    <h1>modifier utilisateur</h1>
 
 @endsection
 @section('content')
@@ -17,7 +17,7 @@ update rooms
            <div class="card my-5">
             <div class="card-header">
                 <div class="text-center font-weight-bold text-uppercase">
-                    <h4>update users</h4>
+                    <h4>modifier utilisateur</h4>
                 </div>
             </div>
             <div class="card-body">
@@ -47,7 +47,8 @@ update rooms
                     <div class="form-group mb-3">
                         <label for="password">password</label>
                         <input type="password" class="form-control" name="password" placeholder="password"
-                            value="{{ old('password') ?? $unhashed_password }}">
+                            value="{{ $unhashed_password }}">
+                            <!-- value="{{ old('password') ?? $unhashed_password }}"> -->
                     </div>
 
 

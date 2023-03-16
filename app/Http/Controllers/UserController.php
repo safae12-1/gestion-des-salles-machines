@@ -78,7 +78,8 @@ class UserController extends Controller
         $user=User::where('id',$id)->first();
         
         // Use the bcrypt() function to unhash the password
-        $unhashed_password = bcrypt('password');
+        //$unhashed_password = bcrypt('password');
+        $unhashed_password = 'password';
 
         return view('user.edit')->with([
         'user' => $user,

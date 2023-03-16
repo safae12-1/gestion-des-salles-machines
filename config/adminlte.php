@@ -324,7 +324,29 @@ return [
             ],
         ],
        
-     
+          
+          
+
+        [
+            'text'    => 'machine',
+            'icon'    => 'fas fa-fw fa-arrow-alt-circle-right',
+            'submenu' => [
+                [
+                    'text' => 'liste des machines',
+                    'url'  => 'admin/machine',
+                    'icon' => 'fas fa-fw fa-list'
+                ],
+                [
+                    'text' => 'ajouter des machines',
+                    'url'  => 'admin/machine/create',
+                    'icon' => 'fas fa-desktop'
+                ],
+                
+            ],
+        ],
+
+
+
         [
             'text'    => 'utilisateurs',
             'icon'    => 'fas fa-fw fa-arrow-alt-circle-right',
@@ -342,7 +364,8 @@ return [
                 
             ],
         ],
-          
+
+
     ], 
     
 
